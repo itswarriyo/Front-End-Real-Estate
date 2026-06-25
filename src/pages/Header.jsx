@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "../App.css"
 import logo from "../img-container/headerlog.webp";
+import bg from "../img-container/bg-img-home-2.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faContactBook, faHome, faUser } from '@fortawesome/free-regular-svg-icons';
 import { faServicestack } from '@fortawesome/free-brands-svg-icons';
@@ -50,7 +51,7 @@ export function Home() {
       <main id='homeSection' className='flex justify-center items-center'>
         <section>
 
-          <img style={{ zIndex: '-1', position: "absolute", height: "700px", width: '100%' }} loading='lazy' src="../src/img-container/bg-img-home-2.webp" alt="The Image of Home For Background Cover" />
+          <img style={{ zIndex: '-1', position: "absolute", height: "700px", width: '100%' }} loading='lazy' src={bg} alt="The Image of Home For Background Cover" />
           <h1 className='text-[40px] font-bold mt-[-140px] text-center mb-12'>Find Your Dream Property Today</h1>
 
         </section>
