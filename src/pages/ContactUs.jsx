@@ -15,24 +15,6 @@ export default function ContactUs() {
         })
 
 
-
-
-    // let verifyForm = (e) => {
-
-    //    {
-    //         fMessError.innerHTML = "";
-    //         fNameError.innerHTML = "";
-    //         fEmailError.innerHTML = "";
-    //         fPhoneError.innerHTML = "";
-    //         fName.style.border = "2px solid green";
-    //         fPhone.style.border = "2px solid green";
-    //         fEmail.style.border = "2px solid green";
-    //         fMess.style.border = "2px solid green";
-    //         return true;
-
-    //     }
-    // }
-
     let formhandling = (e) => {
         e.preventDefault();
 

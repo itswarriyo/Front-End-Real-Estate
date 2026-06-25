@@ -636,7 +636,7 @@ body::-webkit-scrollbar-track {
 
 #contactUs #intSection #contSect div a {
   margin: 20px;
-  color: white;
+  color: rgb(255, 23, 23);
   /* color: orangered; */
 }
 
