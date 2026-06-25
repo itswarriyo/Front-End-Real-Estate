@@ -177,10 +177,10 @@ export default function ContactUs() {
                         referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                     <div>
-                        <a href="mailto:abdullahkhon391@gmail.com"><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl' style={{ color: "orangered", backgroundColor: 'black' }} icon={faEnvelope} /> Email: My/Email</a>
-                        <a href="tel:+923094194640"><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl text-[14px] ' style={{ color: "", backgroundColor: 'blue' }} icon={faPhone} /> Phone: 03094194640</a> <br />
-                        <a href="https://www.linkedin.com/in/abdullah-khan-4a0682376/" target='blank'><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl' style={{ color: "blue", backgroundColor: 'white' }} icon={faLinkedin} /> My/Linkdin </a>
-                        <a href="https://github.com/itswarriyo" target='black'><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl mt-2' style={{ color: "white", backgroundColor: 'black' }} icon={faGithub} /> My/GitHub </a>
+                        <a href="mailto:abdullahkhon391@gmail.com"><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl' style={{ color: "orangered", backgroundColor: 'black' }} icon={faEnvelope} /> <b>Email: My/Email</b></a>
+                        <a href="tel:+923094194640"><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl text-[14px] ' style={{ color: "", backgroundColor: 'blue' }} icon={faPhone} /> <b>Phone: 03094194640</b></a> <br />
+                        <a href="https://www.linkedin.com/in/abdullah-khan-4a0682376/" target='blank'><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl' style={{ color: "blue", backgroundColor: 'white' }} icon={faLinkedin} /> <b>My/Linkdin</b> </a>
+                        <a href="https://github.com/itswarriyo" target='black'><FontAwesomeIcon className='bg-dark p-[4px] rounded-xl mt-2' style={{ color: "white", backgroundColor: 'black' }} icon={faGithub} /> <b>My/GitHub</b> </a>
                     </div>
 
                 </article>

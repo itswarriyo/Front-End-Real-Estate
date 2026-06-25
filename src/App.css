@@ -636,9 +636,19 @@ body::-webkit-scrollbar-track {
 
 #contactUs #intSection #contSect div a {
   margin: 20px;
-  color: rgb(255, 23, 23);
-  /* color: orangered; */
+  color: rgb(255, 255, 255);
 }
+
+#contactUs #intSection #contSect div a b 
+{
+  font-weight: 500;
+}
+
+
+#contactUs #intSection #contSect div a:hover {
+color: #000000;  
+}
+
 
 /* #contactUs #intSection  #contSect div a  */
 

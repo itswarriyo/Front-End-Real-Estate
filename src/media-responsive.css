@@ -409,6 +409,10 @@
         grid-template-columns: 1fr;
     }
 
+.loader-container
+{
+    margin-top: -80px;
+}
 
 }
 
