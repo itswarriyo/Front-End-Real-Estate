@@ -22,11 +22,11 @@ export function Header() {
         <nav>
           <span onClick={() => setNav(!showNav)} id='menueBar'>☰</span>
           <ul id='navList' className={(showNav) ? "showNav" : ""} >
-            <li onClick={() => setNav(false)} ><a href="http://localhost:5173/#homeSection" > <FontAwesomeIcon icon={faHome} /> Home</a></li>
-            <li onClick={() => setNav(false)}><a href="http://localhost:5173/#propertiesSection"> <FontAwesomeIcon icon={faHomeUser} /> Properties</a></li>
-            <li onClick={() => setNav(false)}><a href="http://localhost:5173/#servicesSection"> <FontAwesomeIcon icon={faServicestack} />Services</a></li>
-            <li onClick={() => setNav(false)}><a href="http://localhost:5173/#aboutUs"><FontAwesomeIcon icon={faUser} /> About</a></li>
-            <li onClick={() => setNav(false)}><a href="http://localhost:5173/#contactUs"><FontAwesomeIcon icon={faContactBook} /> Contact Us</a></li>
+            <li onClick={() => setNav(false)} ><a href="https://front-end-real-estate-five.vercel.app//#homeSection" > <FontAwesomeIcon icon={faHome} /> Home</a></li>
+            <li onClick={() => setNav(false)}><a href="https://front-end-real-estate-five.vercel.app//#propertiesSection"> <FontAwesomeIcon icon={faHomeUser} /> Properties</a></li>
+            <li onClick={() => setNav(false)}><a href="https://front-end-real-estate-five.vercel.app//#servicesSection"> <FontAwesomeIcon icon={faServicestack} />Services</a></li>
+            <li onClick={() => setNav(false)}><a href="https://front-end-real-estate-five.vercel.app//#aboutUs"><FontAwesomeIcon icon={faUser} /> About</a></li>
+            <li onClick={() => setNav(false)}><a href="https://front-end-real-estate-five.vercel.app//#contactUs"><FontAwesomeIcon icon={faContactBook} /> Contact Us</a></li>
           </ul>
 
           <ul>
